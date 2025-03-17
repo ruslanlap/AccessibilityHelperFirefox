@@ -12,7 +12,9 @@
     <h3>Enhanced Web Accessibility for Everyone</h3>
     <p>
         <a href="https://github.com/ruslanlap/AccessibilityHelperFirefox"><strong>GitHub Repository</strong></a> •
-        <a href="https://ruslanlap.github.io/ruslanlap_buymeacoffe/"><strong>Support This Project</strong></a>
+        <a href="https://ruslanlap.github.io/ruslanlap_buymeacoffe/"><strong>Support This Project</strong></a> •
+        <a href="Description.md"><strong>Add-on Description</strong></a> •
+        <a href="Developer.md"><strong>Developer Guide</strong></a>
     </p>
 </div>
 
@@ -29,6 +31,7 @@
 - [🔒 Privacy](#-privacy)
 - [☕ Support](#-support)
 - [👤 Author](#-author)
+- [📄 Additional Documentation](#-additional-documentation)
 
 ## 📸 Screenshots
 
@@ -164,6 +167,8 @@ We welcome contributions of all kinds:
 - 📚 Documentation improvements
 - 🧪 Test cases
 
+For detailed guidelines on contributing to this project, please see our [Developer Guide](Developer.md).
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -193,6 +198,11 @@ Your support helps maintain this project and develop new features!
 
 - GitHub: [@ruslanlap](https://github.com/ruslanlap)
 - Project Repository: [AccessibilityHelperFirefox](https://github.com/ruslanlap/AccessibilityHelperFirefox)
+
+## 📄 Additional Documentation
+
+- [Add-on Description](Description.md) - Detailed description used for Mozilla Add-ons submission
+- [Developer Guide](Developer.md) - Guidelines for contributing to the project
 
 ---
 
