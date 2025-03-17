@@ -4,6 +4,8 @@
 
 Accessibility Helper is a comprehensive Firefox extension designed to make the web more accessible for everyone, with a special focus on users with visual impairments. This extension offers a suite of tools to enhance web browsing experience through color correction, text adjustment, contrast enhancement, and text-to-speech capabilities.
 
+Available on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/accessibility-helper/)
+
 ## Summary (250 characters max)
 
 Enhance web accessibility with color blindness correction, text resizing, high contrast mode, and text-to-speech features. Make the web accessible for everyone!

@@ -1,6 +1,6 @@
 # AccessibilityHelper for Firefox 🌈
 
-[![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/addon/)
+[![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/accessibility-helper/)
 [![Version](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge)](https://github.com/ruslanlap/AccessibilityHelperFirefox/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![WCAG](https://img.shields.io/badge/WCAG-2.1-00A98F?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -66,7 +66,7 @@
 
 ## 🚀 Quick Start
 
-1. Install from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/) (coming soon)
+1. Install from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/accessibility-helper/)
 2. Click the extension icon in your toolbar
 3. Choose your accessibility preferences
 4. Enjoy a more accessible web!
