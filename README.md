@@ -1,7 +1,7 @@
 # AccessibilityHelper for Firefox 🌈
 
 [![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/addon/)
-[![Version](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge)](https://github.com/yourusername/accessibility-helper/releases)
+[![Version](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge)](https://github.com/ruslanlap/AccessibilityHelperFirefox/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![WCAG](https://img.shields.io/badge/WCAG-2.1-00A98F?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -10,6 +10,10 @@
 <div align="center">
     <img src="icons/logo.svg" alt="AccessibilityHelper Logo" width="128" height="128">
     <h3>Enhanced Web Accessibility for Everyone</h3>
+    <p>
+        <a href="https://github.com/ruslanlap/AccessibilityHelperFirefox"><strong>GitHub Repository</strong></a> •
+        <a href="https://ruslanlap.github.io/ruslanlap_buymeacoffe/"><strong>Support This Project</strong></a>
+    </p>
 </div>
 
 ## 📋 Table of Contents
@@ -23,6 +27,8 @@
 - [🤝 Contributing](#-contributing)
 - [📝 License](#-license)
 - [🔒 Privacy](#-privacy)
+- [☕ Support](#-support)
+- [👤 Author](#-author)
 
 ## 📸 Screenshots
 
@@ -125,8 +131,8 @@
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/accessibility-helper.git
-cd accessibility-helper
+git clone https://github.com/ruslanlap/AccessibilityHelperFirefox.git
+cd AccessibilityHelperFirefox
 
 # Install dependencies
 npm install
@@ -169,9 +175,28 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - No external resources loaded
 - No tracking or analytics
 
+## ☕ Support
+
+If you find this extension helpful, consider supporting its development:
+
+<div align="center">
+    <a href="https://ruslanlap.github.io/ruslanlap_buymeacoffe/">
+        <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=ruslanlap&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Coffee" height="50">
+    </a>
+</div>
+
+Your support helps maintain this project and develop new features!
+
+## 👤 Author
+
+**Ruslan Lapin**
+
+- GitHub: [@ruslanlap](https://github.com/ruslanlap)
+- Project Repository: [AccessibilityHelperFirefox](https://github.com/ruslanlap/AccessibilityHelperFirefox)
+
 ---
 
 <div align="center">
     <p>Made with ❤️ for improving web accessibility</p>
-    <p>© 2024 AccessibilityHelper Team</p>
-</div># AccessibilityHelperFirefox
+    <p>© 2025 Ruslan Lapin | All Rights Reserved</p>
+</div>
