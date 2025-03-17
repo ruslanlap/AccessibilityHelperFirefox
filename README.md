@@ -8,7 +8,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://makeapullrequest.com)
 
 <div align="center">
-    <img src="icons/logo.svg" alt="AccessibilityHelper Logo" width="128" height="128">
+    <img src="assets/icon-96.png" alt="AccessibilityHelper Logo" width="128" height="128">
     <h3>Enhanced Web Accessibility for Everyone</h3>
     <p>
         <a href="https://github.com/ruslanlap/AccessibilityHelperFirefox"><strong>GitHub Repository</strong></a> •
@@ -36,12 +36,12 @@
 ## 📸 Screenshots
 
 <div align="center">
-    <img src="assets/screen1.png" alt="Screenshot 1" width="280">
-    <img src="assets/screen2.png" alt="Screenshot 2" width="280">
-    <img src="assets/screen3.png" alt="Screenshot 3" width="280">
-    <img src="assets/screen4.png" alt="Screenshot 4" width="280">
-    <img src="assets/screen5.png" alt="Screenshot 5" width="280">
-    <img src="assets/screen6.png" alt="Screenshot 6" width="280">
+    <img src="assets/screen1.png" alt="Screenshot 1" width="600">
+    <img src="assets/screen2.png" alt="Screenshot 2" width="600">
+    <img src="assets/screen3.png" alt="Screenshot 3" width="600">
+    <img src="assets/screen4.png" alt="Screenshot 4" width="600">
+    <img src="assets/screen5.png" alt="Screenshot 5" width="600">
+    <img src="assets/screen6.png" alt="Screenshot 6" width="600">
 </div>
 
 ## 🌟 Features
