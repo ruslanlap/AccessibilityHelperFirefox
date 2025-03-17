@@ -194,7 +194,7 @@ Your support helps maintain this project and develop new features!
 
 ## 👤 Author
 
-**Ruslan Lapin**
+**Ruslan**
 
 - GitHub: [@ruslanlap](https://github.com/ruslanlap)
 - Project Repository: [AccessibilityHelperFirefox](https://github.com/ruslanlap/AccessibilityHelperFirefox)
@@ -208,5 +208,5 @@ Your support helps maintain this project and develop new features!
 
 <div align="center">
     <p>Made with ❤️ for improving web accessibility</p>
-    <p>© 2025 Ruslan Lapin | All Rights Reserved</p>
+    <p>© 2025 Ruslan ruslanlap | All Rights Reserved</p>
 </div>
