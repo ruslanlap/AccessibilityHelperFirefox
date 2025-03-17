@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="options.css">
+  <title>Accessibility Helper Settings</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Accessibility Helper Settings</h1>
+      <p>Configure your accessibility preferences for all websites</p>
+    </header>
+    
+    <main>
+      <section id="color-blindness-section">
+        <h2>Color Blindness Correction</h2>
+        <p>Adjust colors to improve visibility based on your type of color blindness</p>
+        
+        <div class="option-group">
+          <div class="form-group">
+            <label for="colorBlindType">Type of Color Blindness:</label>
+            <select id="colorBlindType" class="form-control">
+              <option value="normal">None (Normal vision)</option>
+              <option value="protanopia">Protanopia (Red-blind)</option>
+              <option value="deuteranopia">Deuteranopia (Green-blind)</option>
+              <option value="tritanopia">Tritanopia (Blue-blind)</option>
+              <option value="achromatopsia">Achromatopsia (Monochromacy)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="colorBlindIntensity">Correction Intensity:</label>
+            <div class="range-with-value">
+              <input type="range" id="colorBlindIntensity" class="form-control" min="0" max="100" value="100">
+              <span id="intensityValue">100%</span>
+            </div>
+          </div>
+          
+          <div class="info-box">
+            <h3>About Color Blindness Types:</h3>
+            <ul>
+              <li><strong>Protanopia</strong>: Difficulty distinguishing red and green colors, with red appearing darker.</li>
+              <li><strong>Deuteranopia</strong>: Difficulty distinguishing red and green colors, but with normal brightness perception.</li>
+              <li><strong>Tritanopia</strong>: Difficulty distinguishing blue and yellow colors.</li>
+              <li><strong>Achromatopsia</strong>: Complete color blindness, seeing only in shades of gray.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section id="text-size-section">
+        <h2>Text Size</h2>
+        <p>Adjust the size of text on websites for better readability</p>
+        
+        <div class="option-group">
+          <div class="form-group">
+            <label for="textSize">Text Size Scaling:</label>
+            <div class="range-with-value">
+              <input type="range" id="textSize" class="form-control" min="50" max="200" step="10" value="100">
+              <span id="textSizeValue">100%</span>
+            </div>
+          </div>
+          
+          <div class="button-group">
+            <button id="textSizeDown" class="btn secondary">Smaller (A-)</button>
+            <button id="textSizeReset" class="btn secondary">Reset</button>
+            <button id="textSizeUp" class="btn secondary">Larger (A+)</button>
+          </div>
+          
+          <div class="sample-text">
+            <h3>Sample Text:</h3>
+            <p id="sampleParagraph">This is how text will appear on websites with your current settings. You can adjust the slider above to find a comfortable reading size.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="high-contrast-section">
+        <h2>High Contrast Mode</h2>
+        <p>Use high contrast colors to improve text visibility</p>
+        
+        <div class="option-group">
+          <div class="form-group toggle-group">
+            <label class="toggle-label">Enable High Contrast Mode:</label>
+            <label class="switch">
+              <input type="checkbox" id="highContrastToggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          
+          <div class="sample-display">
+            <div id="contrastSample" class="contrast-sample">
+              <h3>High Contrast Sample</h3>
+              <p>This shows how text will appear with high contrast mode.</p>
+              <a href="#">Sample link</a>
+              <button class="sample-btn">Sample Button</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="text-to-speech-section">
+        <h2>Text-to-Speech</h2>
+        <p>Configure text-to-speech settings for reading web content aloud</p>
+        
+        <div class="option-group">
+          <div class="form-group">
+            <label for="speechRate">Speech Rate:</label>
+            <div class="range-with-value">
+              <input type="range" id="speechRate" class="form-control" min="0.5" max="2" step="0.1" value="1">
+              <span id="rateValue">1.0x</span>
+            </div>
+          </div>
+          
+          <div class="button-group">
+            <button id="testSpeechBtn" class="btn primary">Test Speech</button>
+            <button id="stopSpeechBtn" class="btn secondary">Stop</button>
+          </div>
+        </div>
+      </section>
+      
+      <section id="keyboard-shortcuts-section">
+        <h2>Keyboard Shortcuts</h2>
+        <p>Use these keyboard shortcuts to quickly access accessibility features</p>
+        
+        <div class="option-group">
+          <div class="info-box">
+            <h3>Available Shortcuts:</h3>
+            <ul class="shortcuts-list">
+              <li><code>Alt+A</code>: Open Accessibility Helper popup</li>
+              <li><code>Alt+C</code>: Toggle high contrast mode on/off</li>
+              <li><code>Alt+Period</code>: Increase text size</li>
+              <li><code>Alt+Comma</code>: Decrease text size</li>
+              <li><code>Alt+R</code>: Read the current page aloud</li>
+              <li><code>Alt+S</code>: Stop reading</li>
+            </ul>
+            <p class="note">Note: These shortcuts can be customized in Firefox at <code>about:addons</code> → Accessibility Helper → Preferences → Keyboard Shortcuts.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="global-settings-section">
+        <h2>Global Settings</h2>
+        
+        <div class="option-group">
+          <div class="button-group">
+            <button id="saveSettings" class="btn primary">Save Settings</button>
+            <button id="resetSettings" class="btn warning">Reset All Settings</button>
+          </div>
+          
+          <div id="statusMessage" class="status-message"></div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Accessibility Helper - Making web browsing accessible for everyone</p>
+    </footer>
+  </div>
+  
+  <script src="options.js"></script>
+</body>
+</html>

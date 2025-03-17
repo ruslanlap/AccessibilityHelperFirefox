@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Accessibility Helper</title>
+</head>
+<body>
+  <header>
+    <img src="../icons/logo.svg" alt="Accessibility Helper Logo" class="logo">
+    <h1>Accessibility Helper</h1>
+  </header>
+  
+  <main>
+    <section id="color-blindness" class="feature-new">
+      <div class="section-header">
+        <img src="../icons/color-blind.svg" alt="" class="section-icon">
+        <h2>Color Blindness Correction</h2>
+      </div>
+      
+      <div class="control">
+        <label for="colorBlindType">Type:</label>
+        <select id="colorBlindType" data-tooltip="Select the type of color blindness to correct">
+          <option value="normal">None (Normal vision)</option>
+          <option value="protanopia">Protanopia (Red-blind)</option>
+          <option value="deuteranopia">Deuteranopia (Green-blind)</option>
+          <option value="tritanopia">Tritanopia (Blue-blind)</option>
+          <option value="achromatopsia">Achromatopsia (Monochromacy)</option>
+        </select>
+      </div>
+      
+      <div class="control">
+        <label for="colorBlindIntensity">Intensity:</label>
+        <input type="range" id="colorBlindIntensity" min="0" max="100" value="100" 
+               data-tooltip="Adjust correction strength">
+        <span id="intensityValue" class="value-display">100%</span>
+      </div>
+    </section>
+    
+    <section id="text-size">
+      <div class="section-header">
+        <img src="../icons/text-size.svg" alt="" class="section-icon">
+        <h2>Text Size Adjustment</h2>
+      </div>
+      
+      <div class="control text-size-controls">
+        <button id="decreaseText" class="btn text-size-btn" data-tooltip="Decrease text size">
+          <span style="font-size: 80%;">A-</span>
+        </button>
+        <button id="resetText" class="btn text-size-btn" data-tooltip="Reset to default size">
+          Reset
+        </button>
+        <button id="increaseText" class="btn text-size-btn" data-tooltip="Increase text size">
+          <span style="font-size: 120%;">A+</span>
+        </button>
+      </div>
+      
+      <div class="text-size-display">
+        <span id="textSizeValue" class="value-display">100%</span>
+      </div>
+    </section>
+    
+    <section id="high-contrast">
+      <div class="section-header">
+        <img src="../icons/contrast.svg" alt="" class="section-icon">
+        <h2>High Contrast Mode</h2>
+      </div>
+      
+      <div class="control toggle">
+        <label class="switch" data-tooltip="Improve visibility with high contrast">
+          <input type="checkbox" id="highContrastToggle">
+          <span class="slider round"></span>
+        </label>
+        <span class="toggle-label">Enable high contrast</span>
+      </div>
+    </section>
+    
+    <section id="text-to-speech">
+      <div class="section-header">
+        <img src="../icons/speech.svg" alt="" class="section-icon">
+        <h2>Text-to-Speech Reader</h2>
+      </div>
+      
+      <div class="control">
+        <button id="readPageBtn" class="btn full-width tts-btn" data-tooltip="Read the current page aloud">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          Read Current Page
+        </button>
+      </div>
+      
+      <div class="control">
+        <button id="stopReadingBtn" class="btn full-width tts-btn" data-tooltip="Stop the current reading">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="4" width="4" height="16"></rect>
+            <rect x="14" y="4" width="4" height="16"></rect>
+          </svg>
+          Stop Reading
+        </button>
+      </div>
+      
+      <div class="control">
+        <label for="speechRate">Speed:</label>
+        <input type="range" id="speechRate" min="0.5" max="2" step="0.1" value="1" 
+               data-tooltip="Adjust reading speed">
+        <span id="rateValue" class="value-display">1.0x</span>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <button id="openSettings" class="btn settings-btn">
+      <img src="../icons/settings.svg" alt="" class="btn-icon">
+      Advanced Settings
+      <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </footer>
+  
+  <script src="popup.js"></script>
+  <script src="https://unpkg.com/color-blind@latest/color-blind.min.js"></script>
+  <script src="lib/color-blind.js"></script>
+
+</body>
+</html>
